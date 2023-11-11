@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1047005875889",
+    "project_id": "proof-bz",
+    "storage_bucket": "proof-bz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047005875889:android:d3c3b7a1891790563d9c90",
+        "android_client_info": {
+          "package_name": "com.example.proofbz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047005875889-nfkb8vrv27rc6qj3otch2kt9iskigg0m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proofbz",
+            "certificate_hash": "2be34c4cfb6275cef7dd7ee89778f457ecd5530d"
+          }
+        },
+        {
+          "client_id": "1047005875889-vm0vhugm30ulfdboihdftj4vukv1njbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEcdaz_UlRC_ye3lWQbK1mOEueS-2uEeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047005875889-vm0vhugm30ulfdboihdftj4vukv1njbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

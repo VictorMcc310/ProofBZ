@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Proof BZ</string>
+    <string name="web_client_id">1047005875889-vm0vhugm30ulfdboihdftj4vukv1njbr.apps.googleusercontent.com</string>
+    <string name="prefs">Preference_file_key</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="seguroQueDesearCerrarSesion">¿Seguro que deseas cerrar sesión?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="titleFaildLogin">Fallo en login</string>
+    <string name="txtFaildLogin">No se pudo realizar el login de manera correcta</string>
+
+    <string name="name">Nombre(s)</string>
+    <string name="secondname">Apellidos</string>
+    <string name="age">Edad</string>
+
+    <string name="save">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="undo">Deshacer</string>
+
+    <string name="search">Buscar</string>
+    <string name="info">Información alumno</string>
+    <string name="add">Añadir alumno</string>
+    <string name="editalumno">Editar alumno</string>
+
+    <string name="error">Error al conectar</string>
+
+</resources>
