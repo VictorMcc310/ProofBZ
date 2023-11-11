@@ -4,12 +4,12 @@
         android:id="@+id/logout"
         android:icon="@drawable/salida"
         app:showAsAction="ifRoom"
-        android:title="Compose">
+        android:title="">
     </item>
     <item
         android:id="@+id/clima"
         android:icon="@drawable/clima"
         app:showAsAction="ifRoom|withText"
-        android:title="Profile">
+        android:title="">
     </item>
 </menu>
