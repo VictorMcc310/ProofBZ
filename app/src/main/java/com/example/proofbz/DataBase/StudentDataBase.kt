@@ -11,17 +11,5 @@ import com.example.proofbz.DataBase.Entities.StudentEntity
 abstract class StudentDataBase: RoomDatabase() {
 
     abstract  fun getStudentDao(): StudentDao
-    /*companion object {
-        @Volatile
-        private var INSTANCE: RoomDatabase? = null
-        fun getDatabase(context: Context): RoomDatabase {
-            return INSTANCE ?: synchronized(this) {
-                val instance = Room.databaseBuilder(context.applicationContext,RoomDatabase::class.java,"data").fallbackToDestructiveMigration()
-                    .build()
-                INSTANCE = instance
-                return instance
-            }
 
-        }
-    }*/
 }
