@@ -114,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                 underlayButtons.add(UnderlayButton(
                     getString(R.string.delete),
                     0,
-                    Color.parseColor("#FF3C30"),
+                    Color.parseColor("#e84e2e"),
                     object : UnderlayButtonClickListener {
                         override fun onClick(pos: Int) {
                             val item: Estudent = adapter.getData()!![pos]
@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
                 underlayButtons.add(UnderlayButton(
                     getString(R.string.edit),
                     0,
-                    Color.parseColor("#FF9502"),
+                    Color.parseColor("#2c2860"),
                     object : UnderlayButtonClickListener {
                         override fun onClick(pos: Int) {
                             val item: Estudent = adapter.getData()!![pos]
@@ -187,7 +187,7 @@ class MainActivity : AppCompatActivity() {
         roomM.provideRoom(this).getStudentDao().insertAll(StudentEntity(0,student.name+" "+student.secondName,student.age.toString()))
     }
     fun update(student:Estudent){
-        println("mira - student   "+student.age+" "+student.id )
+
         roomM.provideRoom(this).getStudentDao().update(StudentEntity(student.id.toInt(),student.name.replace(" ","")+" "+student.secondName.replace(" ",""),student.age.toString()))
     }
 
@@ -261,11 +261,11 @@ class MainActivity : AppCompatActivity() {
                ageMode= Integer.parseInt(age.text.toString())
                 if(filtrado){
                     filtros[idMod].age=ageMode
-                    println("mira - 1 "+filtros[idMod].age)
+
                     update(filtros[idMod])
                 }else{
                     listEstudent[idMod].age=ageMode
-                    println("mira -2  "+listEstudent[idMod].age)
+
                     update(listEstudent[idMod])
                 }
                 adapter.notifyDataSetChanged()
